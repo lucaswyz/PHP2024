@@ -1,0 +1,28 @@
+<?php
+    
+$n1 = 1;
+$n2 = 1;
+
+echo "A)";
+while($n1 <= 10){
+    print("$n1 ");
+    $n1 += 1;
+}
+print("\n");
+
+
+echo "B)";
+do{
+    print("$n2 ");
+    $n2 ++;
+}while($n2 <= 10);
+print("\n");
+
+echo "C)";
+for($i = 1; $i <= 10; $i++){
+    print("$i ");
+}
+print("\n")
+
+
+?>
